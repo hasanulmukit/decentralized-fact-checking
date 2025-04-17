@@ -1,3 +1,3 @@
 # Decentralized Fact-Checking with NLP and Blockchain
 
-A prototype for a decentralized fact-checking system that leverages Natural Language Processing (NLP) to verify claims against trusted sources and a blockchain network to maintain transparency and reward community validators.
+This project implements a decentralized fact-checking system designed to address the biases and transparency issues inherent in centralized fact-checking platforms. Users can submit claims (e.g., news headlines) along with supporting evidence. An NLP model cross-verifies these claims against trusted sources (e.g., scientific papers, WHO reports). Validators in the community vote on the outcomes, and tokenized incentives are issued to reward accurate validations.
