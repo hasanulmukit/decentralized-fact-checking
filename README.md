@@ -20,3 +20,25 @@ This project implements a decentralized fact-checking system designed to address
 
 - **Dashboard Interface:**  
   A Streamlit dashboard for submitting claims, viewing current claims, voting, and monitoring token balances.
+
+## Architecture
+
+1. **Blockchain Network:**  
+   - Developed with Solidity smart contracts.
+   - Deployed on a local testnet (using Ganache) or a public Ethereum testnet.
+   - Manages claim submissions, vote records, and token rewards.
+
+2. **NLP Model:**  
+   - Built on pre-trained models like DistilBERT using the Hugging Face Transformers library.
+   - Fine-tuned on fact-checking datasets using free resources on Kaggle/Colab.
+   - Provides a truth score for each claim.
+
+3. **Backend Listener:**  
+   - Python script using web3.py that listens for blockchain events.
+   - Triggers NLP inference upon new claim submission and updates the blockchain with the result.
+
+4. **Dashboard:**  
+   - Streamlit-based user interface for claim submission, displaying claim status, and voting.
+   - Integrates with the blockchain via web3.py.
+
+---
