@@ -42,3 +42,12 @@ This project implements a decentralized fact-checking system designed to address
    - Integrates with the blockchain via web3.py.
 
 ---
+
+## Technologies Used
+
+- **Blockchain:** Solidity, Ganache, web3.py
+- **NLP:** Python, Hugging Face Transformers, Google Colab/Kaggle
+- **Dashboard:** Streamlit, VS Code
+- **Others:** Python, JSON, REST APIs
+
+---
