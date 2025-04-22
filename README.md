@@ -57,3 +57,14 @@ This project implements a decentralized fact-checking system designed to address
 - **Smart Contract:** The FactCheck.sol contract manages claim submissions, voting, and rewards. The contract is deployed on Ganache and interacts with our Python scripts using web3.py.
 - **Token System:** A simple token reward mechanism is implemented to incentivize validators for accurate votes.
 - **Event Handling:** The contract emits a ClaimSubmitted event upon new submissions, which is caught by the backend listener for triggering NLP verification.
+
+---
+
+## Dashboard
+
+- The dashboard (built with Streamlit) includes:
+
+- **Claim Submission Form:** Users submit a claim and evidence.
+- **Claim Display:** A list of current claims with NLP truth scores and community votes.
+- **Voting Interface:** Validators vote on claims to confirm or dispute NLP outcomes.
+- **Token Balance Display:** Shows token balances for each participating address.
