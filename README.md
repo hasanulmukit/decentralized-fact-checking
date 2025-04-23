@@ -68,3 +68,20 @@ This project implements a decentralized fact-checking system designed to address
 - **Claim Display:** A list of current claims with NLP truth scores and community votes.
 - **Voting Interface:** Validators vote on claims to confirm or dispute NLP outcomes.
 - **Token Balance Display:** Shows token balances for each participating address.
+---
+
+## Future Enhancements
+- Wallet Integration:
+Integrate with MetaMask for decentralized user authentication.
+
+- Enhanced Reward Logic:
+Implement a more complex reward system based on voting accuracy.
+
+- Scalability:
+Deploy the system on an Ethereum testnet/mainnet.
+
+- Improved NLP Accuracy:
+Continuously update and fine-tune the model with more comprehensive datasets.
+
+- User Feedback:
+Implement a feedback loop for improving the NLP model based on validator inputs.
